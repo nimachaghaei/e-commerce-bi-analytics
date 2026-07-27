@@ -21,9 +21,12 @@ Rather than simple static reporting, this solution diagnoses core operational bo
 
 ---
 
-## 📂 Repository Architecture
+## 🏗️ System & Repository Architecture
 
 ```text
+================================================================================
+1. REPOSITORY STRUCTURE (File Layout)
+================================================================================
 e-commerce-bi-analytics/
 ├── .gitignore                           # OS & Power BI lock file exclusions
 ├── README.md                            # Executive project overview & quick start
@@ -42,10 +45,9 @@ e-commerce-bi-analytics/
     └── page2_insights.png               # Preview screenshot: Operational Insights
 
 
-
-## 🛠️ Pipeline Architecture
-
-```text
+================================================================================
+2. DATA PIPELINE FLOW (Technical Process)
+================================================================================
 [ Raw Relational Database ]
          │
          ▼
