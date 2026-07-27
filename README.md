@@ -7,7 +7,7 @@
 An end-to-end business intelligence suite analyzing **$15.42M in net revenue** and **96K unique customer records** from a Brazilian e-commerce platform. This project transforms raw relational tables into an executive-level Power BI dashboard supported by production-grade SQL views, dynamic DAX modeling, and rigorous SLA tracking.
 
 > ⚠️ **Database Schema & Naming Warning:**  
-> If you are replicating this environment or executing these scripts on raw Olist database files, **verify your target schema first**. Table names were standardized (e.g., enforcing consistent `olist_` prefixes across raw datasets), and column typos (e.g., correcting `peyment_...` to `payment_method_group`) were resolved across the SQL views to prevent DAX model ingestion failures.
+> If you are replicating this environment or executing these scripts on raw Olist database files, **verify your target schema first**. 
 
 ---
 
