@@ -40,3 +40,19 @@ e-commerce-bi-analytics/
 └── images/
     ├── page1_revenue.png                # Preview screenshot: Revenue Overview
     └── page2_insights.png               # Preview screenshot: Operational Insights
+
+
+
+## 🛠️ Pipeline Architecture
+
+```text
+[ Raw Relational Database ]
+         │
+         ▼
+[ T-SQL Views & Pipeline Scripts ] ──► Data Cleaning, NULL Handling, Schema Normalization
+         │
+         ▼
+[ Power BI Data Model ]            ──► Star Schema, Dynamic DAX Measures, Filter Controls
+         │
+         ▼
+[ Executive BI Suite ]             ──► Cross-Filtering, Top N Rules, SLA Tooltips
