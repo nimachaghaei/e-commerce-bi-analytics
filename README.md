@@ -25,7 +25,7 @@ Rather than simple static reporting, this solution diagnoses core operational bo
 
 ```text
 ================================================================================
-1. REPOSITORY STRUCTURE (File Layout)
+1. REPOSITORY STRUCTURE 
 ================================================================================
 e-commerce-bi-analytics/
 ├── .gitignore                           # OS & Power BI lock file exclusions
@@ -46,7 +46,7 @@ e-commerce-bi-analytics/
 
 
 ================================================================================
-2. DATA PIPELINE FLOW (Technical Process)
+2. DATA PIPELINE FLOW 
 ================================================================================
 [ Raw Relational Database ]
          │
